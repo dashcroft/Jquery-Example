@@ -31,16 +31,8 @@ $post = mysqli_query($connection,$query);
 								while($rows = mysqli_fetch_assoc($post)):
 
 									echo"<li class='list-group-item'>".$rows['date']."--".$rows['name']."wrote <br>".$rows['post'].'</li>';
-
 								endwhile;
-
-
-
-
 							?>
-
-
-
 						</ul>
 					</div>
 					
@@ -52,9 +44,6 @@ $post = mysqli_query($connection,$query);
 						</form>
 					</div>
 				</div>
-
-				<audio src="sounds/beep.wav"></audio>
-				<footer></footer>
 
 				<!-- Jquery CDN -->
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
