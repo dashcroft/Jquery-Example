@@ -1,0 +1,59 @@
+/*custom stylesheet*/
+body{
+	background: url('http://wallpapercave.com/wp/nqpdZus.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-x: hidden;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: "FINALOLD";
+}
+ul{
+	height: 50vh;
+}
+ul li{
+	width: 100%;
+	float: left;
+}
+img{
+	height: 100px;
+	width: 100px;
+}
+footer{
+	height: 10vh;
+}
+/*fonts*/
+@font-face{
+	font-family: "FINALOLD";
+	src:url('fonts/FINALOLD.ttf');
+	
+}
+/*bootstrap class overrides*/
+.container{
+	overflow: auto;
+}
+.list-group-item{
+	/*height:1.1em;*/
+	flex-wrap:wrap;
+	opacity:0.65;
+	background-color: #7E3E35;
+	color: white;
+}
+.list-group-item p{
+	font-weight: bolder;
+
+}
+.list-group-item:last-child{
+	margin-bottom: 10px;
+}
+.form-control{
+	padding-bottom: 10px;
+	background-color: #7E3E35;
+	opacity: 0.85;
+	color: white;
+}
+/*custom id's*/
