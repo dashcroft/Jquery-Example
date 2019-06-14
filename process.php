@@ -8,7 +8,7 @@ if(isset($_POST['name']) && isset($_POST['replaced'])){
 	$replaced = mysqli_real_escape_string($connection, $_POST['replaced']);
 	$date = mysqli_real_escape_string($connection, $_POST['date']);
 
-	ini_set('date.timezone','America/New_York');
+	ini_set('date.timezone','Europe/London');
 	$date = date('F j, Y, G:i a');
 
 	$query = "INSERT INTO posts(name,post,date)
