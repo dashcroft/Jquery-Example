@@ -12,7 +12,7 @@ $post = mysqli_query($connection,$query);
 	<html lang="en">
 		<head>
 			<meta charset="utf-8">
-			<title>Welcome to Jquery</title>
+			<title>Dashcroft Jquery Exmp</title>
 
 			<!-- bootstrap 3.3.7 cdn css -->
 			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel = "stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -21,7 +21,7 @@ $post = mysqli_query($connection,$query);
 
 			<body>
 				<div class="container">
-					<header><h1>Star Trek Chat</h1></header>
+					<header><h1>Dashcroft - Jquery Example: Message Board</h1></header>
 					<!--This is where the posts will go -->
 					<div id="board">
 						<ul class="list-group">
